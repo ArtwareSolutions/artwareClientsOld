@@ -73,3 +73,29 @@ a {
 .error_messages ul {
   margin: 0;
 }
+
+.artwork_thumb {
+  border: solid 1px #CCC;
+  padding: 10px 10px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.artwork_thumb .title {
+  padding-top: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.artwork_thumb .image_placeholder {
+  width: 200px;
+  height: 150px;
+  background-color: #B6B6B6;
+}
+
+.artwork_thumb .actions {
+  font-size: 10px;
+  text-align: center;
+  color: #777;
+}

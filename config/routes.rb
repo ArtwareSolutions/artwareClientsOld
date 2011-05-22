@@ -1,6 +1,7 @@
 ArtwareClients::Application.routes.draw do
+  root :to => "artworks#index"
+  
   resources :exhibitions
-
   resources :artworks
 
   # The priority is based upon order of creation:

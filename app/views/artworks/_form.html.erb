@@ -1,8 +1,9 @@
-<%= semantic_form_for @artwork do |f| %>
+<%= semantic_form_for @artwork, :html => {:multipart => true} do |f| %>
 	<% f.inputs do %>
 		<%= f.input :artist %>
 		<%= f.input :title %>
 		<%= f.input :year %>
+		<%= f.input :image, :as => :file %>
 		<%= f.input :description %>
 		<%= f.input :medium %>
 		<%= f.input :dimensions, :hint => "8x10 in. for instance" %>
