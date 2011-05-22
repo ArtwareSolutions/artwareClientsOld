@@ -1,0 +1,15 @@
+one:
+  title: MyString
+  site: MyString
+  city: MyString
+  opening: 2011-05-22
+  closing: 2011-05-22
+  comment: MyText
+
+two:
+  title: MyString
+  site: MyString
+  city: MyString
+  opening: 2011-05-22
+  closing: 2011-05-22
+  comment: MyText

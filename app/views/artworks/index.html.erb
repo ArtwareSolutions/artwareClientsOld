@@ -1,0 +1,27 @@
+<% title "Artworks" %>
+
+<table>
+  <tr>
+    <th>Artist</th>
+    <th>Title</th>
+    <th>Year</th>
+    <th>Description</th>
+    <th>Medium</th>
+    <th>Dimensions</th>
+  </tr>
+  <% for artwork in @artworks %>
+    <tr>
+      <td><%= artwork.artist %></td>
+      <td><%= artwork.title %></td>
+      <td><%= artwork.year %></td>
+      <td><%= artwork.description %></td>
+      <td><%= artwork.medium %></td>
+      <td><%= artwork.dimensions %></td>
+      <td><%= link_to "Show", artwork %></td>
+      <td><%= link_to "Edit", edit_artwork_path(artwork) %></td>
+      <td><%= link_to "Destroy", artwork, :confirm => 'Are you sure?', :method => :delete %></td>
+    </tr>
+  <% end %>
+</table>
+
+<p><%= link_to "New Artwork", new_artwork_path %></p>

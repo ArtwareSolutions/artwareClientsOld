@@ -1,0 +1,15 @@
+one:
+  artist: MyString
+  title: MyString
+  year: 1
+  description: MyText
+  medium: MyString
+  dimensions: MyString
+
+two:
+  artist: MyString
+  title: MyString
+  year: 1
+  description: MyText
+  medium: MyString
+  dimensions: MyString
