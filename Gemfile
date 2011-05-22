@@ -11,8 +11,8 @@ gem 'formtastic', '~> 1.2.3'
 gem "mocha", :group => :test
 gem "validation_reflection"
 
-gem "rmagick"
-gem 'carrierwave', :git => 'https://github.com/jnicklas/carrierwave.git'
+gem "rmagick", :require => 'RMagick'
+gem 'carrierwave', :git => 'https://github.com/jnicklas/carrierwave.git', :require => 'carrierwave'
 
 # Use unicorn as the web server
 # gem 'unicorn'
