@@ -12,7 +12,7 @@ gem "mocha", :group => :test
 gem "validation_reflection"
 
 gem "rmagick", :require => 'RMagick'
-gem 'carrierwave', '0.5.1'
+gem 'carrierwave', :git => 'git://github.com/jnicklas/carrierwave.git'
 gem 'fog', '0.5.3'
 
 # Use unicorn as the web server
