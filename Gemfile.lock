@@ -100,7 +100,7 @@ PLATFORMS
 
 DEPENDENCIES
   carrierwave!
-  fog (= 0.5.3)
+  fog
   formtastic (~> 1.2.3)
   mocha
   nifty-generators
