@@ -41,7 +41,7 @@ class ImageUploader < CarrierWave::Uploader::Base
   end
 
   version :thumb2 do
-    process :resize_to_limit => [600, 600] #use CarrierWave::RMagick method  
+    process :resize_to_limit => [400, 400] #use CarrierWave::RMagick method  
   end
   
   # version :large do
