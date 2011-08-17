@@ -3,7 +3,7 @@
 <div id="artwork_thumbs">
   <% for artwork in @artworks %>
     <div class="artwork_thumb">
-      <%= image_tag artwork.image_url() if artwork.image? %>
+      <%= image_tag artwork.image_url(:thumb) if artwork.image? %>
       <div class="title"><%= artwork.title %></div>
       <div class="actions">
 		<%= link_to "show", artwork %> |
