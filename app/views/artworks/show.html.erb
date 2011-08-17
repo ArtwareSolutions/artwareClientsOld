@@ -14,7 +14,7 @@
 </p>
 <p>
   <strong>Image:</strong>
-  <%= image_tag @artwork.image_url(:thumb2).to_s %>
+  <%= image_tag @artwork.image_url(:thumb) if @artwork.image? %>
 </p>
 <p>
   <strong>Description:</strong>
