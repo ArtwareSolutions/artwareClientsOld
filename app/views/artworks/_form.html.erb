@@ -4,7 +4,7 @@
 		<%= f.input :title %>
 		<%= f.input :year %>
 		<%= f.input :image, :as => :file %>
-		<%= f.input :description, :input_html => { :class => 'autogrow', :rows => 10, :cols => 20, :maxlength => 10  } %>
+		<%= f.input :description, :input_html => { :class => 'autogrow', :rows => 3, :cols => 100, :maxlength => 500  } %>
 		<%= f.input :medium %>
 		<%= f.input :dimensions, :hint => "8x10 in. for instance" %>
 		<%=	f.input :exhibitions, :as => :check_boxes %>
