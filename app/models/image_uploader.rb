@@ -36,9 +36,9 @@ class ImageUploader < CarrierWave::Uploader::Base
   # end
 
   #Create different versions of your uploaded files:
-  # version :thumb do
-  #   process :resize_to_limit => [200, 200] #use RMagick method  
-  # end
+  version :thumb do
+    process :resize_to_limit => [200, 200] #use CarrierWave::RMagick method  
+  end
   # 
   # version :large do
   #   process :resize_to_limit => [600, 600] #use RMagick method  
